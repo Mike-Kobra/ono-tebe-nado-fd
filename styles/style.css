@@ -1,1 +1,124 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 1100px;
+  height: 293px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 92px 50px 96px 50px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  list-style-type: circle;
+}
+
+.header__links-list-item {
+  border-bottom: 1px solid currentColor;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header_logo {
+  display: block;
+  height: 103px;
+  width: 136px;
+}
+
+.address {
+  max-width: 240px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.address a {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.cover {
+  min-height: 757px;
+  position: relative;
+  background-image: url(/images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #000000;
+  opacity: 60%;
+  z-index: -1;
+}
+
+.cover_title {
+  z-index: 1;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 0.3em;
+  line-height: 115%;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+
+.aligned-text_left {
+  position: absolute;
+  top: 165px;
+  left: 50px;
+}
+
+.aligned-text_center {
+  position: absolute;
+  top: 300px;
+  left: 380px;
+}
+
+.aligned-text_right {
+  position: absolute;
+  top: 435px;
+  right: 50px;
+}
+
+.cover_description {
+  font-size: 22px;
+}
+
+.cover_description_text {
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  word-spacing: 20px;
+  position: absolute;
+  left: 50px;
+  bottom: 61px;
+}
+
+.bet-button {
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 50px;
+  background-color: transparent;
+  border: 1px solid;
+  padding: 12px 32px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
