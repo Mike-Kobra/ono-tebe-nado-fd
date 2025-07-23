@@ -117,8 +117,6 @@
   background-color: transparent;
   border: 1px solid;
   padding: 12px 32px;
-  position: absolute;
-  right: 50px;
   bottom: 50px;
 }
 
@@ -212,7 +210,6 @@
   border-radius: 50%;
   width: 240px;
   height: 240px;
-  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
