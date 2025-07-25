@@ -121,7 +121,6 @@
   background-color: transparent;
   border: 1px solid;
   padding: 12px 32px;
-  bottom: 50px;
 }
 
 .lots {
@@ -241,12 +240,8 @@
   max-width: 693px;
 }
 
-.about_first_paragraph {
+.about_paragraph {
   max-width: 688px;
-}
-
-.about_second_paragraph {
-  max-width: 693px;
 }
 
 .footer {
